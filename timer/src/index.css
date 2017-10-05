@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Raleway|Roboto|Source+Sans+Pro");
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #F1FBFF;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  background-color: #009DBA;
+  box-shadow: 0px 3px 2px rgba(0,0,0,.4)
+}
+header h1{
+  padding: .5em;
+  margin-left: 35px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  color: #EDF8FD;
+}
+header i {
+  margin-right: 10px;
+}
+
+footer{
+  background-color: #00829B;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  vertical-align: middle;
+  box-shadow: 0px -3px 2px rgba(0,0,0,.4);
+}
+footer h1{
+  padding: 2em;
+  position: relative;
+  top: 50%;
+  font-family: 'Raleway', sans-serif;
+}
+footer span{
+  font-weight: 300;
+  font-family: 'Open Sans', sans-serif;
+}
+footer h1 i{
+  margin-left: 15px;
+}
+
+
+
+
+.App{
+  margin-top: 150px;
+  margin-bottom: 150px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* ------------------------
+          Counter
+-------------------------*/
+
+.counter-wrapper{
+  text-align: center;
+}
+.counter-wrapper h1{
+  font-family: 'Raleway', sans-serif;
+}
+.counter-wrapper h1 span{
+  margin-left: 20px;
+  font-weight: 500;
+}
+.counter-wrapper .tarea input {
+  padding: 9px;
+  width: 150px;
+  margin-top: 20px;
+  border-style: none;
+  box-shadow: 0px 1px 0px rgba(0,0,0,1);
+  outline: none;
+  background-color: rgba(0,0,0,0);
+  margin-bottom: 20px;
+}
+.counter-wrapper .tarea input:focus{
+  box-shadow: 0px 3px 0px rgba(0,0,0,0.9);
+  transition: 200ms;
+}
+
+.counter-wrapper .btn{
+  margin: 10px 20px 10px 20px;
+  border: none;
+  text-align: center;
+  width: 60px;
+  padding: 12px;
+  font-size: 30px;
+  border-radius: 100%;
+  background-color: #00829B;
+  color: #D5F4FF;
+  box-shadow: 0px 5px 7px rgba(0,0,0,.4)
+}
+.counter-wrapper .btn:hover {
+  box-shadow: 0px 2px 3px rgba(0,0,0,.4);
+  background-color: #006A7F;
+  color: #AFCED9;
+}
+
+
+
+
+
+
+
+
+
+/* ------------------------
+          History
+-------------------------*/
+
+
+ul{
+  border-radius: 8px;
+  margin: 20px auto;  
+  list-style-type: none;
+}
+ul h1{
+  text-align: center;
+  padding: 15px;
+  font-family: 'Raleway', sans-serif;
+  border-bottom: 1px solid rgba(0,0,0,.4);
+  margin-bottom: 10px;
+}
+ul li{
+  background-color: rgba(0,0,0,0);
+  font-family: 'Open Sans', sans-serif;
+  padding-left: 20px;
+  padding: 10px;
+  border-bottom: 1px solid rgba(0,0,0,.1);
+}
+ul li:last-child{
+  border-bottom: none;
+}
+ul li h3{
+  width: 90%;
+  font-weight: 500;
+}
+ul li button {
+  width: 10%;
+  background-color: rgba(0,0,0,0);
+  font-family: 'Raleway', sans-serif;
+  color: #FF3500;
+  border: none;
+}
+
+
+@media screen and (max-width: 768px){
+  ul{
+    margin-top: 150px;
+    margin-bottom: 40px;
+  }
+}
